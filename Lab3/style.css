@@ -1,0 +1,36 @@
+h1{
+    text-align : center;
+}
+.line_1{
+    height : 2px;
+    background : black;
+    left :38%;
+    width : 23%;
+    bottom : 58%;
+    position : absolute;
+
+}
+.line_2{
+    height : 2px;
+    background : #000000;
+    left :38%;
+    width : 23%;
+    bottom : 74%;
+    position : absolute;
+}
+.line_3{
+    border-left: 2px solid black;
+    height : 40%;
+    left :45%;
+    top: 100px;
+    position : absolute;
+    
+}
+.line_4{
+    border-left: 2px solid black;
+    height : 40%;
+    left : 54%;
+    top : 100px;
+    position : absolute;
+    
+}
