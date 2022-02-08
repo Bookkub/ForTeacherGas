@@ -1,7 +1,58 @@
 h1{
     text-align : center;
 }
-.line_1{
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+#line_1
+{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#line_2
+{
+    border-bottom: 1px solid black;
+}
+#line_3
+{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+#line_4
+{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#line_5
+{
+    border-bottom: 1px solid black;
+}
+#line_6
+{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#line_7
+{
+    border-right: 1px solid black;
+   
+}
+#line_8
+{
+    
+}
+#line_9
+{
+    border-left: 1px solid black;
+}
+/* .line_1{
     height : 2px;
     background : black;
     left :38%;
@@ -33,4 +84,4 @@ h1{
     top : 100px;
     position : absolute;
     
-}
+} */
