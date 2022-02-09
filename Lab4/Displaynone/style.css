@@ -1,0 +1,21 @@
+h1{
+    font: bold;
+}
+#show
+{
+    padding-left: 10px;
+    background-color: rgb(244, 162, 255);
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+}
+#hide
+{
+    padding-left: 10px;
+    background-color: rgb(244, 162, 255);
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+}
+.hidden
+{
+    display : none;
+}
