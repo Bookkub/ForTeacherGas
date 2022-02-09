@@ -345,7 +345,6 @@ function checkwin()
         Ties();
         closelis();
     }
-    console.log(count);
 }
 function Xwin()
 {
