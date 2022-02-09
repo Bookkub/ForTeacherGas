@@ -12,7 +12,15 @@ function Inside()
 }
 function reset()
 {
-    window.location.reload("Refresh")
+    const color1 = document.querySelector('.outside-box-new');
+    color1.classList.remove('outside-box-new');
+    color1.classList.add('outside-box');
+    color1.addEventListener('click', Outside);
+
+    const color2 = document.querySelector('.inside-box-new');
+    color2.classList.remove('inside-box-new');
+    color2.classList.add('inside-box');
+    color2.addEventListener('click', Inside);
 }
 const button = document.querySelector('button');
 button.addEventListener('click', reset);
