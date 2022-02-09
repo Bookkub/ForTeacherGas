@@ -23,6 +23,7 @@ function callX(event)
             number.splice(findex,1);
             boardcheck[0][0] = 1;
             count++;
+            checkwin();
             callY(); 
         }
     }
@@ -36,6 +37,7 @@ function callX(event)
             number.splice(findex,1);
             boardcheck[0][1] = 1;
             count++;
+            checkwin();
             callY(); 
         }
     }
@@ -50,6 +52,7 @@ function callX(event)
             number.splice(findex,1);
             boardcheck[0][2] = 1;
             count++;
+            checkwin();
             callY(); 
         }
     }
@@ -64,6 +67,7 @@ function callX(event)
             number.splice(findex,1);
             boardcheck[1][0] = 1;
             count++;
+            checkwin();
             callY(); 
         }
     }
@@ -77,6 +81,7 @@ function callX(event)
             number.splice(findex,1);
             boardcheck[1][1] = 1;
             count++;
+            checkwin();
             callY(); 
         }
     }
@@ -90,6 +95,7 @@ function callX(event)
             number.splice(findex,1);
             boardcheck[1][2] = 1;
             count++;
+            checkwin();
             callY(); 
         }
     }
@@ -103,6 +109,7 @@ function callX(event)
             number.splice(findex,1);
             boardcheck[2][0] = 1;
             count++;
+            checkwin();
             callY(); 
         }
     }
@@ -116,6 +123,7 @@ function callX(event)
             number.splice(findex,1);
             boardcheck[2][1] = 1;
             count++;
+            checkwin();
             callY(); 
         }
     }
@@ -129,6 +137,7 @@ function callX(event)
             number.splice(findex,1);
             boardcheck[2][2] = 1;
             count++;
+            checkwin();
             callY(); 
         }
     }
@@ -331,7 +340,7 @@ function checkwin()
         Owin();
         closelis();
     }
-    else if(count === 8)
+    else if(count == 9)
     {
         Ties();
         closelis();
