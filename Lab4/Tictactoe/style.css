@@ -1,0 +1,87 @@
+h1{
+    text-align : center;
+}
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+#line_1
+{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#line_2
+{
+    border-bottom: 1px solid black;
+}
+#line_3
+{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+#line_4
+{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#line_5
+{
+    border-bottom: 1px solid black;
+}
+#line_6
+{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#line_7
+{
+    border-right: 1px solid black;
+   
+}
+#line_8
+{
+    
+}
+#line_9
+{
+    border-left: 1px solid black;
+}
+/* .line_1{
+    height : 2px;
+    background : black;
+    left :38%;
+    width : 23%;
+    bottom : 58%;
+    position : absolute;
+
+}
+.line_2{
+    height : 2px;
+    background : #000000;
+    left :38%;
+    width : 23%;
+    bottom : 74%;
+    position : absolute;
+}
+.line_3{
+    border-left: 2px solid black;
+    height : 40%;
+    left :45%;
+    top: 100px;
+    position : absolute;
+    
+}
+.line_4{
+    border-left: 2px solid black;
+    height : 40%;
+    left : 54%;
+    top : 100px;
+    position : absolute;
+    
+} */
